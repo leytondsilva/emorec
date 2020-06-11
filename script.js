@@ -12,7 +12,7 @@ function startVideo() {
     { video: {} },
     stream => video.srcObject = stream,
     err => console.error(err)
-  )
+  );
 }
 
 video.addEventListener('play', () => {
