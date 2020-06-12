@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <script defer src="face-api.min.js"></script>
-  <script defer src="script.js"></script>
+  <script src="face-api.min.js"></script>
+  <script src="script.js"></script>
   <style>
     body {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
       width: 100%;
       height: 100vh;
       display: flex;
@@ -20,15 +21,11 @@
 
     canvas {
       position: absolute;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
     }
   </style>
 </head>
 <body>
-  <h1">Hello</h1>
-  <video id="video" height="720" width="1280" autoplay muted></video>
+  <h1>Hello</h1>
+  <video id="video" height="560" width="720" autoplay muted></video>
 </body>
 </html>
