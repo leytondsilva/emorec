@@ -9,24 +9,49 @@
   <script defer src="script.js"></script>
   <style>
     body {
-      margin: 0;
-      padding: 0;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      background-color: #1B1B1B;
+      background-image: url(./emorec.jpg);
     }
+    footer {
+      position: absolute;
+      z-index: 10;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      color: white;
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(38, 38, 38, 0.856);
+      color: white;
+      vertical-align: middle;
+      }
 
     canvas {
+      margin: 0;
       position: absolute;
-      width: 100vw;
-      height: 100vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    video {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   </style>
 </head>
 <body>
-  <h1>Hello</h1>
-  <video id="video" width="960" height="540" autoplay muted></video>
+<video id="video" width="1000" height= "720" autoplay muted></video>
 </body>
+<div class="footer">
+  <p style="float: left; padding-left: 2rem;">© Leyton 2021. All Rights Reserved</p>
+  <p style="text-align: right; padding-right:2rem;"> Made with face-api.js & TensorFlow.js</p>
+</div>
+
 </html>
