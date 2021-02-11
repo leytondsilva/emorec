@@ -1,0 +1,82 @@
+
+@media screen and (min-width: 1280px) {
+    body {
+    background-image: url(./emorec.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1B1B1B;
+    }
+    h1 {
+        color: white;
+        font-size:48px;
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(38, 38, 38, 0.856);
+      color: white;
+      vertical-align: middle;
+    }
+
+    canvas {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    video {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width="720";
+      height= "560";
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    body {
+    background-image: url(./emorec.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color: #1B1B1B;
+    }
+    h1 {
+        color: white;
+        font-size:48px;
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(38, 38, 38, 0.856);
+      color: white;
+      vertical-align: middle;
+    }
+
+    canvas {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    video {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width="720";
+      height= "560";
+    }
+}
