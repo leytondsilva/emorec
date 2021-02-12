@@ -6,21 +6,32 @@ body {
     background-color: #1B1B1B;
     background-size: cover;
 }
-h1 {
-    color: white;
-    font-family: poppins;
-    position: absolute;
-    text-align: center;
-    left: 0%;
-    right: 0%;
-    margin: 0%;
+img {
+    left: 1vw;
+    top: 1vw;
+    position: fixed;
+    z-index: 1;
 }
+
+.header {
+    background-color:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    color:white;
+}
+.theader {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 3rem 0 3rem;
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(38, 38, 38, 0.856);
   color: white;
   vertical-align: middle;
   font-family: montserrat;
@@ -42,27 +53,39 @@ video {
 
 
 @media screen and (min-width: 360px) {
-    h1 {
+    .theader {
         font-size:20px;
     }
     .footer {
         font-size:12px;
         
     }
+    img {
+        width: 100px;
+        height: 100px;
+    }
 }
 @media screen and (min-width: 768px) {
-    h1 {
+    .theader {
         font-size:28px;
     }
     .footer {
         font-size:14px;
     }
+    img {
+        width: 150px;
+        height: 150px;
+    }
 }
 @media screen and (min-width: 1280px) {
-    h1 {
+    .theader {
         font-size:48px;
     }
     .footer {
         font-size:18px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
     }
 }
